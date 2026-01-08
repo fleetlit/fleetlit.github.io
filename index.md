@@ -5,16 +5,16 @@ title: Home
 
 <!-- Hero Section -->
 <section class="hero">
-  <div class="container">
-    <h1>Fleetlit</h1>
-    <p class="hero-subtitle">Supabase Alternative in AI Era</p>
+  <div class="container hero-content">
+    <h1>⚡ Fleetlit</h1>
+    <p class="hero-subtitle">AI-Native Backend Platform</p>
     <p class="hero-description">
-      Backend-as-a-service platform specifically designed for AI applications.
-      Build powerful AI apps with multi-tenant architecture, real-time features, and scalable infrastructure.
+      The Supabase alternative built for the AI era. Ship AI applications faster with vector databases,
+      conversation memory, token metering, and multi-provider AI integration.
     </p>
     <div class="hero-buttons">
-      <a href="/docs/" class="btn btn-primary">Get Started</a>
-      <a href="https://github.com/fleetlit/fleetlit" class="btn btn-secondary">View on GitHub</a>
+      <a href="/docs/" class="btn btn-primary">🚀 Get Started</a>
+      <a href="https://github.com/fleetlit/fleetlit" class="btn btn-secondary">📦 View on GitHub</a>
     </div>
   </div>
 </section>
@@ -29,57 +29,57 @@ title: Home
 
     <div class="features-grid">
       <div class="feature-card">
-        <div class="feature-icon">🏢</div>
-        <h3>Multi-tenant Architecture</h3>
-        <p>Built-in support for Users, Teams, and Projects with proper isolation and scalability.</p>
+        <div class="feature-icon">🤖</div>
+        <h3>AI-Native Architecture</h3>
+        <p>Built from the ground up for AI workloads with vector storage, embeddings, and conversation management.</p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-icon">🔐</div>
-        <h3>User Management</h3>
-        <p>Complete authentication system with JWT tokens, refresh tokens, and secure session management.</p>
+        <div class="feature-icon">🧠</div>
+        <h3>Conversation Memory</h3>
+        <p>Advanced threading system for AI chatbots with context window management and memory summarization.</p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-icon">📁</div>
-        <h3>File Storage</h3>
-        <p>S3-compatible storage with Cloudflare R2 integration for scalable and affordable file management.</p>
+        <div class="feature-icon">📊</div>
+        <h3>Vector Database</h3>
+        <p>Native vector search and storage with pgvector integration for semantic search and RAG applications.</p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-icon">💰</div>
-        <h3>Asset Exchange</h3>
-        <p>Sophisticated transaction framework for asset management with pluggable execution factories.</p>
+        <div class="feature-icon">🔄</div>
+        <h3>Event Streaming</h3>
+        <p>Kafka-based event system for real-time AI processing and async model inference.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">⚡</div>
-        <h3>Event-Driven</h3>
-        <p>Kafka-based event system for asynchronous processing and real-time updates.</p>
+        <h3>Token Metering</h3>
+        <p>Built-in usage tracking for AI tokens, API calls, and compute resources with quota management.</p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-icon">⚙️</div>
-        <h3>Runtime Variables</h3>
-        <p>Dynamic configuration management for real-time updates without deployment.</p>
+        <div class="feature-icon">🔐</div>
+        <h3>AI Security</h3>
+        <p>Enterprise-grade security with API key management, rate limiting, and audit logging for AI apps.</p>
       </div>
 
       <div class="feature-card">
-        <div class="feature-icon">💬</div>
-        <h3>Collections & Threads</h3>
-        <p>Advanced data organization with message threading support for AI conversations.</p>
+        <div class="feature-icon">💾</div>
+        <h3>Model Storage</h3>
+        <p>S3-compatible storage for AI models, datasets, and outputs with Cloudflare R2 integration.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🌐</div>
+        <h3>Multi-Provider AI</h3>
+        <p>Unified API for OpenAI, Anthropic, Cohere and more with automatic fallback and load balancing.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">🚀</div>
         <h3>High Performance</h3>
-        <p>Built with Go and modern architecture for maximum performance and scalability.</p>
-      </div>
-
-      <div class="feature-card">
-        <div class="feature-icon">🔌</div>
-        <h3>Three API Layers</h3>
-        <p>Public API, Admin API, and SDK API for different use cases and security levels.</p>
+        <p>Built with Go for ultra-low latency, perfect for real-time AI applications at scale.</p>
       </div>
     </div>
   </div>
