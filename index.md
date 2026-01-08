@@ -7,7 +7,7 @@ title: Home
 <section class="hero">
   <div class="container hero-content">
     <h1>⚡ Fleetlit</h1>
-    <p class="hero-subtitle">AI-Native Backend Platform</p>
+    <p class="hero-subtitle">AI-Native BaaS Platform</p>
     <p class="hero-description">
       The Supabase alternative built for the AI era. Ship AI applications faster with vector databases,
       conversation memory, token metering, and multi-provider AI integration.
@@ -222,7 +222,7 @@ task generate-protocol</div>
 <!-- CTA Section -->
 <section class="hero" style="background: linear-gradient(135deg, #764ba2 0%, #667eea 100%); padding: 4rem 0;">
   <div class="container">
-    <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Ready to Build?</h2>
+    <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem; font-weight: 800;">Ready to Build?</h2>
     <p class="hero-description" style="margin-bottom: 2rem;">
       Start building your AI application with Fleetlit today. Join our community and contribute to the future of backend-as-a-service.
     </p>

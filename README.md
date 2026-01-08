@@ -1,6 +1,6 @@
 # Fleetlit GitHub Pages Site
 
-This is the official GitHub Pages website for [Fleetlit](https://github.com/fleetlit/fleetlit) - Supabase alternative in AI Era.
+This is the official GitHub Pages website for [Fleetlit](https://github.com/fleetlit/fleetlit) - AI-Native BaaS Platform.
 
 ## 🌐 Visit the Site
 
