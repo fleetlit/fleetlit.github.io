@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="doc-layout">
+  <aside class="doc-sidebar">
+    <div class="sidebar-content">
+      <h3>Documentation</h3>
+      <ul class="doc-nav">
+        <li><a href="/docs/" class="{% if page.url == '/docs/' %}active{% endif %}">Getting Started</a></li>
+        <li><a href="/docs/api/" class="{% if page.url == '/docs/api/' %}active{% endif %}">API Reference</a></li>
+        <li><a href="/docs/architecture/" class="{% if page.url == '/docs/architecture/' %}active{% endif %}">Architecture</a></li>
+        <li><a href="/docs/deployment/" class="{% if page.url == '/docs/deployment/' %}active{% endif %}">Deployment</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <article class="doc-content">
+    <div class="doc-header">
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}
+        <p class="subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+    </div>
+
+    <div class="doc-body">
+      {{ content }}
+    </div>
+  </article>
+</div>

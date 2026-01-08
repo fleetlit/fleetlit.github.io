@@ -1,0 +1,60 @@
+# Site settings
+title: Fleetlit
+description: Supabase alternative in AI Era - Backend-as-a-service platform designed for AI applications
+baseurl: ""
+url: "https://fleetlit.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .gitignore
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "doc"
+
+# Navigation
+nav:
+  - title: Home
+    url: /
+  - title: Features
+    url: /features
+  - title: API
+    url: /api
+  - title: Docs
+    url: /docs
+  - title: Roadmap
+    url: /roadmap
+  - title: GitHub
+    url: https://github.com/fleetlit/fleetlit
+
+# Social
+social:
+  github: fleetlit/fleetlit
