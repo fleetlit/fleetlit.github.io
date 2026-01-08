@@ -4,7 +4,9 @@
       "mcp__zread__get_repo_structure",
       "Bash(tree:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)"
     ]
   }
 }
