@@ -6,7 +6,7 @@ title: Home
 <!-- Hero Section -->
 <section class="hero">
   <div class="container hero-content">
-    <h1>⚡ Fleetlit</h1>
+    <img src="{{ '/assets/logo.png' | relative_url }}" alt="Fleetlit Logo" class="hero-logo">
     <p class="hero-subtitle">AI-Native BaaS Platform</p>
     <p class="hero-description">
       The Supabase alternative built for the AI era. Ship AI applications faster with vector databases,

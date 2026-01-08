@@ -198,15 +198,17 @@ a:hover {
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  font-size: 1.375rem;
-  font-weight: 700;
-  color: var(--text-primary);
   transition: transform var(--transition-fast);
 }
 
 .logo:hover {
   transform: translateY(-1px);
+}
+
+.logo-image {
+  height: 40px;
+  width: auto;
+  display: block;
 }
 
 .logo-icon {
@@ -345,6 +347,25 @@ a:hover {
   position: relative;
   z-index: 1;
   animation: hero-fade-in 0.8s ease-out;
+}
+
+.hero-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: var(--space-xl);
+  display: inline-block;
+  animation: logo-appear 0.8s ease-out;
+}
+
+@keyframes logo-appear {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
 }
 
 @keyframes hero-fade-in {
@@ -1015,6 +1036,19 @@ tr:hover td {
   font-size: 1.25rem;
 }
 
+.footer-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: var(--space-md);
+  display: block;
+  opacity: 0.9;
+  transition: opacity var(--transition-fast);
+}
+
+.footer-logo:hover {
+  opacity: 1;
+}
+
 .footer-section p {
   color: var(--text-tertiary);
   line-height: 1.6;
@@ -1056,6 +1090,10 @@ tr:hover td {
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2.75rem;
+  }
+
+  .hero-logo {
+    width: 100px;
   }
 
   .hero-subtitle {
@@ -1140,6 +1178,10 @@ tr:hover td {
 
   .hero h1 {
     font-size: 2.25rem;
+  }
+
+  .hero-logo {
+    width: 80px;
   }
 
   .hero-subtitle {
