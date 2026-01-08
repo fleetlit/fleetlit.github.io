@@ -211,6 +211,14 @@ a:hover {
   display: block;
 }
 
+.logo-text {
+  margin-left: 0.75rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
 .logo-icon {
   font-size: 1.75rem;
   background: var(--gradient-brand);
@@ -1100,6 +1108,10 @@ tr:hover td {
     font-size: 1.0625rem;
   }
 
+  .logo-text {
+    font-size: 1rem;
+  }
+
   .hero-description {
     font-size: 1.125rem;
   }
@@ -1186,6 +1198,10 @@ tr:hover td {
 
   .hero-subtitle {
     font-size: 1rem;
+  }
+
+  .logo-text {
+    font-size: 0.9375rem;
   }
 
   .hero-description {
