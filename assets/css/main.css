@@ -116,6 +116,10 @@ button {
   color: var(--color-text);
 }
 
+.logo img {
+  border-radius: 6px;
+}
+
 .nav-links {
   display: flex;
   align-items: center;

@@ -23,11 +23,15 @@
     <nav class="nav">
       <div class="container nav-container">
         <a href="{{ '/' | relative_url }}" class="logo">
+          {% if site.logo %}
+          <img src="{{ site.logo }}" alt="{{ site.title }}" width="32" height="32">
+          {% else %}
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
             <rect width="32" height="32" rx="8" fill="#111827"/>
             <path d="M10 16L14 12L18 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M14 12V20" stroke="white" stroke-width="2" stroke-linecap="round"/>
           </svg>
+          {% endif %}
           <span>Fleetlit</span>
         </a>
         <div class="nav-links">
