@@ -1,8 +1,8 @@
 # Site Settings
-title: Fleetlit
+title: fleetlit
 description: AI-Native Backend-as-a-Service for modern SaaS applications
 logo: https://avatars.githubusercontent.com/u/201335910
-url: https://fleetlit.github.io
+url: https://fleetlit.com
 baseurl: ""
 lang: en_US
 
