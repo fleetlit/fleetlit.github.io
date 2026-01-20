@@ -1,0 +1,52 @@
+# Site Settings
+title: Fleetlit
+description: AI-Native Backend-as-a-Service for modern SaaS applications
+url: https://fleetlit.github.io
+baseurl: ""
+lang: en_US
+
+# Build Settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# SEO
+social:
+  name: Fleetlit
+  links:
+    - https://github.com/fleetlit
+    - https://discord.gg/fleetlit
+
+# Analytics (optional)
+# google_analytics: UA-XXXXXXXXX-X
