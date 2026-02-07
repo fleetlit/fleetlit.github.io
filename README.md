@@ -1,6 +1,6 @@
-# Fleetlit Website
+# Refleet Website
 
-The official website for [Fleetlit](https://github.com/fleetlit) - AI-Native Backend-as-a-Service for modern SaaS applications.
+The official website for [Refleet](https://github.com/refleet) - AI-Native Backend-as-a-Service for modern SaaS applications.
 
 ## Local Development
 

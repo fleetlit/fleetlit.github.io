@@ -1,5 +1,5 @@
 # Site Settings
-title: fleetlit
+title: refleet
 description: AI-Native Backend-as-a-Service for modern SaaS applications
 logo: https://avatars.githubusercontent.com/u/201335910
 url: https://fleetlit.com
@@ -44,7 +44,7 @@ defaults:
 
 # SEO
 social:
-  name: Fleetlit
+  name: Refleet
   links:
     - https://github.com/fleetlit
     - https://discord.gg/fleetlit
