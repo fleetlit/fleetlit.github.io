@@ -46,7 +46,7 @@ defaults:
 social:
   name: Refleet
   links:
-    - https://github.com/fleetlit
+    - https://github.com/refleetio
     - https://discord.gg/fleetlit
 
 # Analytics (optional)
